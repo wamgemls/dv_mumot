@@ -1,0 +1,11 @@
+{
+    "name": "dev-local",
+    "dockerFile": "Dockerfile",
+    "runArgs": [
+        "--privileged",
+        "--network=host",
+        "--rm"
+
+
+    ]
+}
