@@ -1,0 +1,5 @@
+[user]
+	email = wamgemls@gmail.com
+	name = wamgemls
+[credential]
+	helper = "!f() { /root/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/node /tmp/vscode-remote-containers-2b2b74b45c99906f6994c9b9f936dc346f01a50a.js $*; }; f"

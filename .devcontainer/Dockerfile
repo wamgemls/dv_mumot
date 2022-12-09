@@ -9,4 +9,9 @@ RUN apt-get update && apt-get install -y usbutils && lsusb &&\
     apt-get install -y udev &&\
     apt-get install -y screen
 
+RUN echo source "/opt/ros/galactic/setup.bash" >> ~/.bashrc
+
+
+
+
 

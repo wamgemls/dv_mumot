@@ -1,11 +1,12 @@
 {
-    "name": "dev-local",
+    "name": "dev-dv_mumot",
     "dockerFile": "Dockerfile",
     "runArgs": [
         "--privileged",
         "--network=host",
         "--rm"
-
-
+    ],
+    "mounts":[
+        "type=bind,source=/dev,target=/dev"
     ]
 }
